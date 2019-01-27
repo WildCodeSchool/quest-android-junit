@@ -21,7 +21,7 @@ JUnit définit deux types de fichiers de tests :
 - La méthode annotée par @AfterClass est appelée tout à la fin du testCase.
  
 ### @Test
- - Tous les tests sont des méthodes annotées par @Test, qui font des traitements et vérifient le bon comportement des classes testées par des méthodes assert***(), toute assertion non vérifiée est signalée comme défaillante. Un cas de test (TestCase) peut avoir plusieurs sections @Test. Si une section @Test échoue, le TestCase ne s'arrête pas mais continue sur les sections @Test suivantes (s'il y en a).
+ - Tous les tests sont des méthodes annotées par @Test, qui font des traitements et vérifient le bon comportement des classes testées par des méthodes *assert()*, toute assertion non vérifiée est signalée comme défaillante. Un cas de test (TestCase) peut avoir plusieurs sections @Test. Si une section @Test échoue, le TestCase ne s'arrête pas mais continue sur les sections @Test suivantes (s'il y en a).
 
 En voici un exemple:
 
